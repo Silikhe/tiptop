@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap'); */
-.navbar-light .navbar-toggler-icon{
-  background-image: url(./assets/humbuger.svg)!important;
+.navbar-light .navbar-toggler-icon {
+  background-image: url(./assets/humbuger.svg) !important;
   outline: none;
   border: none;
-  }
+}
 
 body {
   margin: 0;
@@ -53,6 +53,7 @@ body {
   justify-content: space-around;
   /* width: 100%; */
   height: 100%;
+  overflow-x: hidden;
 }
 
 .bunner-content {
@@ -92,46 +93,45 @@ select {
   border: red;
 }
 
-
-.t-1{
+.t-1 {
   font-size: 26px;
   font-weight: bold;
   color: #2c2c2c;
 }
 
-.t-2{
+.t-2 {
   font-size: 14px;
   font-weight: bold;
   color: #2c2c2c;
   line-height: 10px;
 }
 
-.t-3{
+.t-3 {
   font-size: 13px;
   font-weight: lighter;
   color: #001847;
   line-height: 10px;
 }
 
-.t-4{
+.t-4 {
   font-size: 1.3rem;
   font-weight: bold;
   color: #fff;
 }
 
-.t-5{
+.t-5 {
   font-size: 21px;
   font-weight: bold;
   color: #2c2c2c;
 }
 
-.t-6{
+.t-6 {
   font-size: 14px;
 }
 
 /* Services */
 
-.circle{
+.circle {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
@@ -140,14 +140,22 @@ select {
   margin-bottom: 2rem;
 }
 
-.common-btn{
+.common-btn {
   width: 15rem !important;
 }
 
+/* Sample papers */
+.samp-links{
+  /* text-align: center; */
+}
+.samp-links a {
+  color: #073577;
+  /* text-align: center; */
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
 /* Courousel */
-
-
-
 
 /*Another couresel  */
 :root {
@@ -158,16 +166,15 @@ select {
   /* --color-lightgrey: #ccc; */
   /* --color-ui: #999; */
   /* --color-ui-hover: #666; */
-  --cardWidth: calc(96vw/var(--up));
+  --cardWidth: calc(96vw / var(--up));
   --carouselWidth: calc(var(--cardWidth) * var(--num));
   --carouselLeftMargin: calc(2vw - var(--cardWidth));
 }
 
-.myUl{
+.myUl {
   margin: 120px auto !important;
   border: 2px solid #fff;
 }
-
 
 .carouselwrapper {
   overflow: hidden;
@@ -247,36 +254,34 @@ select {
   }
 }
 
-
 /* Testimony */
-.testimony{
+.testimony {
   height: 100%;
-  background-color: #F0F4FE;
+  background-color: #f0f4fe;
 }
 
-.services{
+.services {
   height: 100%;
 }
 
-.blogs{
+.blogs {
   height: 100%;
-  background-color: #F0F4FE;
+  background-color: #f0f4fe;
 }
 
-.custom-card{
+.custom-card {
   border-bottom: 5px solid #073577;
 }
 
-.card-header{
+.card-header {
   background-color: #fff;
-  border-bottom: 1px solid #F0F4FE;
+  border-bottom: 1px solid #f0f4fe;
 }
-
 
 /* Footer */
 
 footer {
-  background: #1E2428;
+  background: #1e2428;
   font-weight: 300;
   font-size: 14px;
 }
@@ -284,7 +289,7 @@ footer {
 .footer-header {
   color: #5a5a5a;
   font-size: 15px;
-  border-bottom: 1px #363A3D solid;
+  border-bottom: 1px #363a3d solid;
 }
 
 .font-white a {
@@ -303,7 +308,7 @@ footer {
 }
 
 .pay-upfront {
-  background: #F3F3F7;
+  background: #f3f3f7;
   text-align: center;
 }
 
@@ -317,7 +322,7 @@ footer {
   border-radius: 10px;
   height: 80px;
   width: 140px;
-  background: #181D20;
+  background: #181d20;
 }
 
 .pay p {
@@ -342,7 +347,7 @@ footer {
   border-radius: 10px;
   height: 80px;
   width: 140px;
-  background: #181D20;
+  background: #181d20;
 }
 
 footer a:hover {
@@ -351,7 +356,6 @@ footer a:hover {
 
 .follow i {
   color: #fff;
-  ;
   height: 25px;
   width: 25px;
 }
@@ -364,7 +368,7 @@ footer a:hover {
   text-align: center;
   color: #ffffff !important;
   width: 29px;
-  background: #D95B9D;
+  background: #d95b9d;
   border-radius: 50%;
 }
 
@@ -373,7 +377,7 @@ footer a:hover {
   color: #ffffff;
   margin-right: 10px;
   width: 29px;
-  background: #34679A;
+  background: #34679a;
   border-radius: 50%;
 }
 
@@ -382,7 +386,7 @@ footer a:hover {
   color: #ffffff;
   margin-right: 10px;
   width: 29px;
-  background: #1DA1F2;
+  background: #1da1f2;
   border-radius: 50%;
 }
 
@@ -392,7 +396,7 @@ footer a:hover {
 }
 
 .footer-seo a {
-  color: #2DA9B8;
+  color: #2da9b8;
 }
 
 .footer-copyright {
@@ -406,26 +410,25 @@ footer a:hover {
   font-size: 12px;
 }
 
-
 /* blog */
 
-.blog-bunner{
+.blog-bunner {
   background-color: #073577;
   width: 100%;
   /* height: 50vh; */
 }
 
-.blog-bunner p{
+.blog-bunner p {
   color: #fff;
 }
 
-.bunner-card{
+.bunner-card {
   width: 29rem;
   background-color: #073577;
   border-radius: 20px !important;
 }
 
-.bunner-card h5{
+.bunner-card h5 {
   font-size: 1.2rem;
   font-weight: bold;
   padding: 20px 50px;
@@ -462,24 +465,23 @@ footer a:hover {
   font-size: 15px;
 }
 
-.blog-card{
+.blog-card {
   /* border: 1px solid #073577; */
 }
 
 /* How it works */
 
-.work-bunner{
+.work-bunner {
   padding: 20px 12%;
 }
 
-.bunner-working{
+.bunner-working {
   border-radius: 20px;
 }
 
-.bunner-working img{
+.bunner-working img {
   border-radius: 20px;
 }
-
 
 @media screen and (max-width: 900px) {
   :root {
@@ -496,7 +498,6 @@ footer a:hover {
 
   /* Responsive navbar */
 
-
   .navbar-brand {
     font-size: 28px;
     font-weight: bold;
@@ -504,7 +505,7 @@ footer a:hover {
     /* font-style: italic; */
     padding-left: 0px;
   }
-  
+
   /* Bunner */
 
   .bunner {
@@ -514,41 +515,59 @@ footer a:hover {
     object-fit: contain;
     background-position: bottom;
     justify-content: space-around;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
   }
-  
+
   .bunner-content {
     color: #fff;
     font-weight: bold;
   }
-  
+
   .bunner-content .h1 {
     font-size: 2.5rem;
     font-weight: bold;
   }
 
-  /* Calc */
+  /* services */
 
-  .calc {
-    width: 24rem;
-    height: 100%;
-    position: absolute;
-    top: 7rem;
-    left: 20rem;
+  .services-content {
+    font-size: 1.3rem;
+  }
+
+  /* How it works */
+  .work-content {
+    padding: 20px;
+  }
+
+  .how-sec img {
+    width: 100%;
+  }
+
+  /* Blog */
+
+  .blog-bunner {
+    background-color: #073577;
+    width: 100%;
+    /* height: 50vh; */
   }
   
-  .card {
-    border: none;
-    border-radius: 0 !important;
+  .blog-bunner p {
+    color: #fff;
   }
   
-  .myBtn {
-    border-radius: 0;
-    background: #073577;
+  .bunner-card {
+    width: 20rem;
+    background-color: #073577;
+    border-radius: 20px !important;
+  }
+  
+  .bunner-card h5 {
+    font-size: 1.2rem;
     font-weight: bold;
-    font-size: 15px;
+    padding: 20px 50px;
+    color: #fff;
   }
-  
- 
+
+  /* Calc */
 }
